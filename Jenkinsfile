@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', credentialsId: 'git-private-tocken', url: 'https://github.com/rohidas9730/TestQuantum.git'
+                git branch: 'master', credentialsId: 'git-private-tocken', url: 'https://github.com/rohidas9730/TestQuantum.git'
             }
         }
 
